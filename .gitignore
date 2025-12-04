@@ -1,0 +1,50 @@
+# ------------------------------------
+# 1. Dependencias y Entorno de Node
+# ------------------------------------
+
+# La carpeta de dependencias masiva de Node.js
+/node_modules
+
+# Archivos de logs de npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Archivos de la configuración local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ------------------------------------
+# 2. Archivos de BUILD/COMPILACIÓN
+# ------------------------------------
+
+# Directorio de build de Vite (¡ESTO ES VITAL!)
+# Por defecto, Vite compila la app en esta carpeta para producción
+/dist
+
+# Directorio de desarrollo/cache que puede crear Vite
+/.vite
+
+# ------------------------------------
+# 3. Archivos de IDE y OS
+# ------------------------------------
+
+# Carpetas de VS Code
+.vscode/
+
+# Archivos de Mac OS
+.DS_Store
+
+# Archivos de Windows
+Thumbs.db
+
+# ------------------------------------
+# 4. TESTING
+# ------------------------------------
+
+# Cache de Jest/Vitest (si lo usas)
+/coverage
+.tmp/
