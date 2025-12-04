@@ -3,7 +3,7 @@ import { Boton } from "./botones/Boton"
 
 export const Main=({children})=>{
     return(<>
-    <main className="flex flex-col items-center justify-center min-h-screen p-4 bg-[#F7F5EF] text-[#292929]">
+    <main className="flex flex-col items-center justify-center min-h-screen p-4 bg-white shadow-md  text-[#292929]">
         {children}
     </main>
       

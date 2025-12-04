@@ -2,6 +2,8 @@ import "./App.css";
 import { MainLayput } from "./componentes/MainLayaout";
 import { Index } from "./pages/Inicio";
 import { About } from "./pages/About";
+import { Contacto } from "./pages/Contacto";
+import { Productos } from "./pages/Productos";
 import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Route element={<MainLayput/>}>
           <Route path="/" element={<Index/>}></Route>
           <Route path="/about" element={<About/>}></Route>
+          <Route path="/contacto" element={<Contacto/>}></Route>
+          <Route path="/productos" element={<Productos/>}></Route>
         </Route>
        </Routes>
       </div>

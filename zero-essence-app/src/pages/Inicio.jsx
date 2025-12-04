@@ -1,9 +1,9 @@
-import { Main } from "../componentes/Main"
+import { Hero } from "../componentes/mainComponets/Hero"
 export const Index=()=>{
    return(
    <>
    
-        <h1>Inicio</h1>
+        <Hero/>
     
    </>)
 }
