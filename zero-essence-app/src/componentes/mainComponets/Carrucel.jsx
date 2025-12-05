@@ -37,7 +37,7 @@ export const Carrucel=()=> {
   };
 
   return (
-    <div className="relative w-full h-80 md:h-[500px] lg:h-[300px] overflow-hidden rounded-xl shadow-2xl">
+    <div className="relative w-full h-20 md:h-[500px] lg:h-[300px] overflow-hidden rounded-xl shadow-2xl " >
       {/* Slider */}
       <div
         className="flex transition-transform duration-700"
@@ -48,7 +48,7 @@ export const Carrucel=()=> {
             <img
               src={slide.image}
               alt={`Slide ${slide.id}`}
-              className="w-full h-full object-contain"
+              className="w-full h-full object-cover"
             />
           </div>
         ))}
@@ -57,13 +57,13 @@ export const Carrucel=()=> {
       {/* Botones */}
       <button
         onClick={prevSlide}
-        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:bg-gray-200"
+        className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:bg-gray-200 cursor-pointer"
       >
         &#10094;
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:bg-gray-200"
+        className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow-lg hover:bg-gray-200 cursor-pointer"
       >
         &#10095;
       </button>
