@@ -5,6 +5,7 @@ import { About } from "./pages/About";
 import { Contacto } from "./pages/Contacto";
 import { Productos } from "./pages/Productos";
 import { Routes, Route } from 'react-router-dom';
+import { MostrarPerfumePorCategoria } from "./pages/MostrarPerfumePorCategoria";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About/>}></Route>
           <Route path="/contacto" element={<Contacto/>}></Route>
           <Route path="/productos" element={<Productos/>}></Route>
+          <Route path="/mostrarperfumeporcategoria/:id" element={<MostrarPerfumePorCategoria/>}></Route>
         </Route>
        </Routes>
       </div>

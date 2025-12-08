@@ -1,10 +1,14 @@
 
  
 {/* podemos crear un compoente aparte, y para psarle los datos usamos un pront */}
-export const Tarjeta=({products})=> {
-  
+export const Tarjeta=({products,navegador})=> {
+  const buscarPerfume=()=>{
+    navegador(products.id)
+  }//callback para navegar 
+
     return (
       <div className="bg-white rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 overflow-hidden"
+        onClick={buscarPerfume}
       >
         <img
           src={products.image} alt={products.name}

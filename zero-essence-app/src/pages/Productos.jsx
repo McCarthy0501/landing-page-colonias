@@ -1,8 +1,8 @@
 
-
+import { Perfumes } from "../componentes/mainComponets/productos/Perfumes"
 export const Productos=()=>{
     return(
     <>
-    <h1>Productos</h1>
+    <Perfumes/>
     </>)
 }
