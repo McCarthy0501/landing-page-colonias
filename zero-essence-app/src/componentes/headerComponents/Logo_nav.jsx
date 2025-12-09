@@ -1,4 +1,4 @@
-import img from '../../assets/img/logo_nav.png'
+import img from '../../assets/img/logo_nav.webp'
 
 
 

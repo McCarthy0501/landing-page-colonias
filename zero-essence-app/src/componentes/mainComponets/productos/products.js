@@ -5,17 +5,17 @@ import img3 from "../../../assets/img/categorias_perfumes/niños.webp";
 import img4 from "../../../assets/img/categorias_perfumes/nuevas.webp";
 
 //perfumes_damas
-import chanelCinco from'../../../assets/img/perfumes/Damas/ChanelCinco.png';
-import black from'../../../assets/img/perfumes/Damas/BlackOpium.png';
-import vie from'../../../assets/img/perfumes/Damas/VieEstBelle.png';
-import god from'../../../assets/img/perfumes/Damas/GoodGrill.png';
+import chanelCinco from'../../../assets/img/perfumes/Damas/ChanelCinco.webp';
+import black from'../../../assets/img/perfumes/Damas/BlackOpium.webp';
+import vie from'../../../assets/img/perfumes/Damas/VieEstBelle.webp';
+import god from'../../../assets/img/perfumes/Damas/GoodGrill.webp';
 
 
 //perfumes_caballeros
-import blue from '../../../assets/img/perfumes/Caballeros/BlueSeduccion.png'
-import dio from '../../../assets/img/perfumes/Caballeros/DiorSauvage.png'
-import paco from '../../../assets/img/perfumes/Caballeros/PacoRabanneUnMillion.png'
-import hugo from '../../../assets/img/perfumes/Caballeros/HugoBoss.png'
+import blue from '../../../assets/img/perfumes/Caballeros/BlueSeduccion.webp'
+import dio from '../../../assets/img/perfumes/Caballeros/DiorSauvage.webp'
+import paco from '../../../assets/img/perfumes/Caballeros/PacoRabanneUnMillion.webp'
+import hugo from '../../../assets/img/perfumes/Caballeros/HugoBoss.webp'
 
 //perfumes_niños
 
