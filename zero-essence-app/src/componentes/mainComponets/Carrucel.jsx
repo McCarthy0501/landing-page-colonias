@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import img1 from "../../assets/img/carrucelimg/1.png";
-import img2 from "../../assets/img/carrucelimg/2.png";
-import img3 from "../../assets/img/carrucelimg/3.png";
-import img4 from "../../assets/img/carrucelimg/4.png";
+import img1 from "../../assets/img/carrucelimg/1.webp";
+import img2 from "../../assets/img/carrucelimg/2.webp";
+import img3 from "../../assets/img/carrucelimg/3.webp";
+import img4 from "../../assets/img/carrucelimg/4.webp";
 
 export const Carrucel = () => {
   // Configuración del intervalo de tiempo en milisegundos (ejemplo: 3000ms = 3 segundos)

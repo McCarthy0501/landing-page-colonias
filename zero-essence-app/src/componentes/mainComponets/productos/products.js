@@ -1,8 +1,8 @@
 //categorias_perfumes
-import img1 from "../../../assets/img/categorias_perfumes/damas.png";
-import img2 from "../../../assets/img/categorias_perfumes/caballeros.png";
-import img3 from "../../../assets/img/categorias_perfumes/niños.png";
-import img4 from "../../../assets/img/categorias_perfumes/nuevas.png";
+import img1 from "../../../assets/img/categorias_perfumes/damas.webp";
+import img2 from "../../../assets/img/categorias_perfumes/caballeros.webp";
+import img3 from "../../../assets/img/categorias_perfumes/niños.webp";
+import img4 from "../../../assets/img/categorias_perfumes/nuevas.webp";
 
 //perfumes_damas
 import chanelCinco from'../../../assets/img/perfumes/Damas/ChanelCinco.png';
