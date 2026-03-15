@@ -22,26 +22,26 @@ export const MostrarPerfumePorCategoria=()=>{
     }
     
     return(<>
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
     <motion.div
         variants={fadeRight}
         initial="desaparece"
         whileInView="aparece"
-        // Aparece casi inmediatamente al cargar (viewport: 0.1)
          viewport={{ once: true, amount: 0.5 }} 
-        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }} // Sigue el flujo
+        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
         className="w-full"
     >
         <h1 className="text-3xl font-bold mb-6">
                  {nombreFiltrado}
             </h1>
             
-            {/* 4. Mapear sobre los productos filtrados, NO sobre Categorias_perfumes */}
-            <div className="grid grid-cols-1 cursor-pointer sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {productosFiltrados.map((producto) => (
                     <Tarjeta key={producto.id} products={producto}/>
                 ))}
             </div>
     </motion.div>
+    </div>
         </>
     )
     
