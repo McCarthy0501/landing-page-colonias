@@ -1,4 +1,4 @@
-import { useCarrito } from '../../context/CarritoContext';
+import { useCarrito } from '../context/CarritoContext';
 import { FiShoppingCart, FiX, FiPlus, FiMinus, FiTrash2 } from 'react-icons/fi';
 import { useNavigate } from 'react-router-dom';
 
